@@ -1,3 +1,4 @@
+package Modelos;
 public class Usuario {
      public String usuario;
     public String contraseña;
