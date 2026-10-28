@@ -1,13 +1,24 @@
+package Modelos;
+
 public class Administrador extends Usuario {
-    
 
+    public Administrador(String usuario, String contraseña, String nombre, String apellido) {
+        super(usuario, contraseña, nombre, apellido);
+    }
 
-    Public CrearUsuarioConRol(String usuario,String contraseña ){
+    public void crearUsuarioConRol(String usuario, String contraseña) {
+        // Implementación
     }
-    Public AsignarPermiso(String usuario){
+
+    public void asignarPermisoUsuario(String usuario) {
+        // Implementación
     }
-    Public ActualizarSoftware(){
+
+    public void actualizarSoftware() {
+        // Implementación
     }
-    Public AsignarResponsable(Curso curso, Profesor profesor){
+
+    public void asignarResponsable(Curso curso, Profesor responsable) {
+        // Implementación
     }
 }

@@ -1,10 +1,20 @@
+package Modelos;
+
 public class SoporteTecnico extends Usuario {
 
-    Public BrindarAsistencia(String usuario){}
+    public SoporteTecnico(String usuario, String contraseña, String nombre, String apellido) {
+        super(usuario, contraseña, nombre, apellido);
+    }
 
-    Public ResolverProblemaTecnico(String usuario){}
+    public void brindarAsistencia(Usuario usuario) {
+        // Implementación
+    }
 
-    Public DerivarProblemadeGestion(Administrador administrador){}
+    public void resolverProblemaTecnico(Usuario usuario) {
+        // Implementación
+    }
 
-    
+    public void derivarProblemaDeGestion(Administrador administrador) {
+        // Implementación
+    }
 }
