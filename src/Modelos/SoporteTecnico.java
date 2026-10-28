@@ -7,14 +7,14 @@ public class SoporteTecnico extends Usuario {
     }
 
     public void brindarAsistencia(Usuario usuario) {
-        // Implementación
+        
     }
 
     public void resolverProblemaTecnico(Usuario usuario) {
-        // Implementación
+        
     }
 
     public void derivarProblemaDeGestion(Administrador administrador) {
-        // Implementación
+    
     }
 }
